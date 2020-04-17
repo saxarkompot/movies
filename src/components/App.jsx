@@ -114,7 +114,7 @@ class App extends React.Component {
                 return (
                   <div className="col-6 mb-4" key={movie.id}>
                     <MovieItem
-                      soso={this.state.moviesWillWatch.includes(movie)}
+                      //soso={this.state.moviesWillWatch.includes(movie)}
                       movie={movie}
                       moviesWillWatch={this.state.moviesWillWatch}
                       removeMovie={this.removeMovie}
